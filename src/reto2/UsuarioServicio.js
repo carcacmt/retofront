@@ -5,7 +5,7 @@
 import Axios from 'axios'
 //endpoint en servidor de pruebas
 const port = "8090"
-const endpoint =`http://localhost:${port}/api/user`
+const endpoint =`http://10.0.0.53:${port}/api/user`
 /**funcion para consumir todos los usuarios */
 const getApiUsuarios=()=>{
     return Axios.get(endpoint+"/all")
